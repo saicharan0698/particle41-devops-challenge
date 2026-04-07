@@ -16,14 +16,14 @@ This repository contains my submission for the Particle41 DevOps challenge. It i
     ├── outputs.tf         # Useful resource IDs
     └── terraform.tfvars   # Default configuration values
 
-🛠 Prerequisites
+## 🛠 Prerequisites
 Before you begin, ensure you have the following installed:
 1. AWS CLI (configured with access keys)
 2. Terraform (v1.0+)
 3. kubectl
 4. Docker (optional, for local testing)
 
-Task 1: SimpleTimeService (App & K8s)
+## Task 1: SimpleTimeService (App & K8s)
 The SimpleTimeService is a minimalist web server that returns the current timestamp and the visitor's IP address in JSON format.
 
 Container Security
@@ -57,7 +57,7 @@ Access via: http://<NODE_PRIVATE_IP>:<NODE_PORT>
 
 
 
-🏗 Task 2: Infrastructure (Terraform & AWS)
+## 🏗 Task 2: Infrastructure (Terraform & AWS)
 The Terraform configuration provisions:
 
 A VPC with 2 Public and 2 Private subnets.
